@@ -10,6 +10,6 @@ function verificar(){
     if(txtpeso.value.length == 0 || txtaltura.value.length == 0){
         res.innerHTML = "Não vai não >:-("
     } else {
-        console.log(peso, altura)
+        console.log(peso, altura, res)
     }
 }
